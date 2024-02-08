@@ -8,11 +8,18 @@ const port = 3000
 // SO the req has everything to do with query params, headers and body
 //gpt is passing the i/p(the Q u ask) in the body not queryparams using ?
 
+//other WAYS to send DATA to backend server
+// we can't send Headers from browser we need something like postman 95% we use BODY
+
+//but 9
+
+
 app.get('/', (req, res) => {
     var n1= req.query.n1;
     console.log(req.query.n2+ "\n"+req.query.n3);
     
-    res.send("the sum is "+calSum_FirstN_nos(n1));    
+    // res.send("the sum using Query Params "+calSum_FirstN_nos(n1));    
+    res.send("the sum from Headers is "+calSum_FirstN_nos(req.headers.h1));
     
 })
 
