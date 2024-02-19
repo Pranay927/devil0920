@@ -1,5 +1,5 @@
 
-
+//fetch lets you send http request to a local host(server) from a  node.js process
 const express = require('express')
 const app = express()
 const port = 3000
