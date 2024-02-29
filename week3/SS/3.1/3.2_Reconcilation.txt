@@ -1,0 +1,15 @@
+<!-- React made it easy to focus on state variables
+Something else does addition and removal from the DOM
+#Reconcilation
+    Process of app React or VU, taking the update of the state and translating it to DOM, by calling appendChild and removeChild.
+#How to create a reconciler of our own, doing it in replit
+1hr:36 min week 3.2
+
+
+if we scroll there is a new state coming evry 1 sec
+# the transition that's happening from the initial state and replicating it in the DOM is called reconcilation
+#See the reconcilation repl in Replit
+
+# LINK : https://replit.com/@pranaymusaramth/Reconcilation#script.js
+-->
+
